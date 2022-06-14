@@ -5,13 +5,15 @@ import java.util.Objects;
 
 public class ParqueTematico {
 
+    private int id;
     private String nombre;
     private Ubicacion ubicacion;
     private Integer num_max_visitantes;
     private List<Tarifa> tarifas;
     private List<Atraccion> atracciones;
 
-    public ParqueTematico(String nombre, Ubicacion ubicacion, Integer num_max_visitantes, List<Tarifa> tarifas, List<Atraccion> atracciones) {
+    public ParqueTematico(int id, String nombre, Ubicacion ubicacion, Integer num_max_visitantes, List<Tarifa> tarifas, List<Atraccion> atracciones) {
+        this.id = id;
         this.nombre = nombre;
         this.ubicacion = ubicacion;
         this.num_max_visitantes = num_max_visitantes;
@@ -22,6 +24,14 @@ public class ParqueTematico {
     public ParqueTematico() {
     }
 
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public String getNombre() {
         return nombre;

@@ -4,17 +4,27 @@ import java.util.Objects;
 
 public class Atraccion {
 
+    private int  id;
     private String nombre;
     private TipoAtraccion tipo;
     private Double alturaMinima;
 
-    public Atraccion(String nombre, TipoAtraccion tipo, Double alturaMinima) {
+    public Atraccion(int id, String nombre, TipoAtraccion tipo, Double alturaMinima) {
+        this.id = id;
         this.nombre = nombre;
         this.tipo = tipo;
         this.alturaMinima = alturaMinima;
     }
 
     public Atraccion() {
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getNombre() {
