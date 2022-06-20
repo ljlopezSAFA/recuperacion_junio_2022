@@ -9,6 +9,7 @@ public class ParqueTematico {
     private String nombre;
     private Ubicacion ubicacion;
     private Integer num_max_visitantes;
+    private TipoParque tipoParque;
     private List<Tarifa> tarifas;
     private List<Atraccion> atracciones;
 

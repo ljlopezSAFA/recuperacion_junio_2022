@@ -1,0 +1,4 @@
+id_entrada, codigo, fecha, tipo_persona_tarifa, precio_tarifa, nombre_parque
+1,EOO100, 16-09-2021,ADULTO,20.40,Isla Magica
+1,EOO200, 17-11-2021,INFANTIL,15,Warner
+1,EOO300, 18-12-2021, INFANTIL,15, Feria
